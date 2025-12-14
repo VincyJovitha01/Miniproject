@@ -1,58 +1,82 @@
-## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+## Polypharmacy Side-Effects Risk Predictor 
+Polypharmacy Side Effects Risk Predictor Using Hybrid Quantum-Classical Machine Learning
+A quantum-enhanced predictive system designed to identify adverse drug interactions in patients taking multiple medications, improving clinical decision-making and patient safety.
 
 ## About
-<!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+The Polypharmacy Side Effects Risk Predictor is an innovative healthcare AI system that leverages hybrid quantum-classical machine learning to predict potential adverse effects from drug combinations. Traditional pharmacovigilance methods struggle with the exponential complexity of multi-drug interactions and limited clinical data. This project addresses these challenges by implementing quantum machine learning algorithms that can process high-dimensional pharmacological data more efficiently than classical approaches. The system analyzes molecular structures, drug-target interactions, and clinical profiles to provide real-time risk assessments, empowering healthcare professionals to make safer prescription decisions and prevent harmful drug interactions.
 
 ## Features
-<!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+Implements hybrid quantum-classical neural networks for enhanced pattern recognition
+
+Quantum feature encoding for exponential representation of molecular data
+
+Real-time risk prediction with confidence scoring
+
+Interactive dashboard for clinical decision support
+
+High scalability with cloud quantum computing integration
+
+Privacy-preserving federated learning capabilities
+
+Multi-class risk classification (Low, Moderate, High)
+
+Alternative drug suggestion engine
+
+Automated report generation for clinical documentation
 
 ## Requirements
-<!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+Operating System: Windows 10/11, Ubuntu 20.04+, or macOS for quantum simulation compatibility
 
+Development Environment: Python 3.8+ with Anaconda/Miniconda distribution
+
+Quantum Computing Frameworks: PennyLane 0.30+, Qiskit 0.45+ for quantum circuit implementation
+
+Machine Learning Libraries: PyTorch 2.0+, TensorFlow 2.12+, scikit-learn 1.3+
+
+Chemistry Libraries: RDKit 2023.3+, Open Babel for molecular processing
+
+Web Framework: Flask 2.3+ or FastAPI for API deployment
+
+Database: PostgreSQL 14+ with chemical extension support
+
+Quantum Simulators: Pennylane's default.qubit, IBM Quantum Experience (optional hardware access)
+
+Additional Dependencies: NumPy, Pandas, Plotly, Streamlit for visualization, Docker for containerization
 ## System Architecture
-<!--Embed the system architecture diagram as shown below-->
-
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
-
+<img width="1992" height="2968" alt="deepseek_mermaid_20251213_6f2465" src="https://github.com/user-attachments/assets/48fc71d9-20d0-49e1-9bdc-06c37e1cf949" />
 
 ## Output
 
-<!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+#### Output1 -  Home Page
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+<img width="1351" height="782" alt="image" src="https://github.com/user-attachments/assets/14fa44e1-8536-44e6-8625-b989febb7fb2" />
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
+#### Output2 - Converting into SMILES
+<img width="1198" height="837" alt="image" src="https://github.com/user-attachments/assets/eed4193e-9eae-45fe-9bb3-3f209e313a64" />
 
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
+<img width="649" height="331" alt="Screenshot 2025-10-24 121325" src="https://github.com/user-attachments/assets/a0fec330-4752-46bf-8536-39224c25bfd2" />
 
 
 ## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
+The experimental results demonstrate that the hybrid quantum–classical model achieves performance comparable to classical baselines, validating the feasibility of applying quantum machine learning to drug–drug interaction risk prediction. Although predictive accuracy remains modest, the system successfully models complex molecular relationships using variational quantum circuits.
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+This project highlights the potential of hybrid quantum machine learning in computational pharmacology and provides a foundation for future exploration involving deeper quantum circuits, advanced feature encoding strategies, and real quantum hardware execution.
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+1. M. Zitnik, M. Agrawal, and J. Leskovec, “Modeling polypharmacy side effects with graph convolutional networks,” Bioinformatics, vol. 34, no. 13, pp. i457–i466, 2018.
+
+2. S. Lloyd, M. Mohseni, and P. Rebentrost, “Quantum algorithms for supervised and unsupervised machine learning,” arXiv preprint arXiv:1307.0411, 2013.
+
+3. K. Mitarai, M. Negoro, M. Kitagawa, and K. Fujii, “Quantum circuit learning,” Physical Review A, vol. 98, no. 3, pp. 032309, 2018.
+
+4. E. Öztürk, G. S. Yildirim, and B. K. Aksakalli, “Deep learning-based prediction of drug–drug interactions using molecular fingerprints,” Computational Biology and Chemistry, vol. 88, pp. 107354, 2020.
+
+5. J. Tang, A. Karatzoglou, N. Wang, and Q. Zhang, “Hybrid quantum-classical machine learning for biomedical data classification,” IEEE Transactions on Neural Networks and Learning Systems, vol. 33, no. 10, pp. 5561–5573, 2022.
+
+6. A. K. Sahu and S. Pradhan, “Drug–target interaction prediction using deep learning and graph neural networks,” IEEE Access, vol. 9, pp. 76309–76322, 2021.
+
+7. F. Imran, J. Li, and R. Walters, “Quantum computing in healthcare: Challenges and opportunities,” IEEE Access, vol. 10, pp. 84415–84429, 2022.
+
 
 
 
