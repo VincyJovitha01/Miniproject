@@ -1,0 +1,34 @@
+# Quantum + Classical ML Stack
+pennylane
+pennylane-qiskit
+qiskit
+qiskit-machine-learning
+
+# Core ML/Data Tools
+numpy
+scikit-learn
+pandas
+joblib
+matplotlib
+tqdm
+networkx
+torchmetrics
+
+# Chemistry + Graph Libraries
+rdkit-pypi
+pubchempy
+
+# PyTorch (CPU Only)
+torch==2.8.0+cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+# PyTorch Geometric (for Molecular Graphs)
+torch_geometric
+torch_scatter
+torch_sparse
+torch_cluster
+torch_spline_conv
+-f https://data.pyg.org/whl/torch-2.8.0+cpu.html
+
+xgboost
+imbalanced-learn
